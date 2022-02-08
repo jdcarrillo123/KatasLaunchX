@@ -84,6 +84,9 @@ Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
  ![](img/kata02.PNG)
+ 
+### Entorno Virtual en el Directorio local
+ ![](img/screenshot.PNG)
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
 
