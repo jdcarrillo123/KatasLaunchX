@@ -1,4 +1,3 @@
-# KatasLounchX
-Repositorio en donde se encuentran las Katas del curso Lounchx
-Contenido: Katas del Modulo 1, 2 y Modulo 3
+# KatasLaunchX
+Repositorio en donde se encuentran las Katas del curso Launchx
 Autor: Juan Danie Carrillo Mercado
