@@ -14,8 +14,9 @@ Crea un entorno virtual mediante ``venv``
        python3 -m venv env 
     ```
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
+    
+  ![Crear entorno Virtual](img/1.PNG)  
   
-
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
     ```
@@ -29,6 +30,8 @@ Crea un entorno virtual mediante ``venv``
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
+   ![Activar entorno Virtual](img/2.PNG)
+
 ## Instalar una biblioteca
 
 Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y saber que la biblioteca solo existirá en el entorno virtual.
@@ -38,6 +41,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
+    ![No hay bibliotecas](img/3.PNG)
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
@@ -45,6 +49,8 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
    ```
    pip install python-dateutil
    ```
+   ![instalacion de paquetes](img/4.PNG)
+   
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
     ```
@@ -54,11 +60,14 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
+    ![Ver libreria instalada](img/5.PNG)
+    
 * Ahora deberías ver la siguiente lista:
     ```
     python-dateutil==2.8.2
     six==1.16.0
     ```
+
 
 ### Desactivar un entorno virtual
 
@@ -68,11 +77,13 @@ Ejecuta el comando ``deactivate``:
 ```
 deactivate
 ```
+![](img/6.PNG)
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
+ ![](img/kata02.PNG)
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
 
